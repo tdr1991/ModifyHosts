@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ModifyHosts">
+      <UniqueIdentifier>{27281edb-d4de-4419-b3b1-8042cfbf7db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonPubInterfaces">
+      <UniqueIdentifier>{d4a22e14-96b1-4e56-a13e-0dfb6f2c6eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonPubInterfaces\CommonBaseInterfaces">
+      <UniqueIdentifier>{29e58d14-53e4-4687-a3ce-4dd882ee93ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp">
+      <Filter>ModifyHosts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FileOperate.cpp">
+      <Filter>ModifyHosts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\URLOperate.cpp">
+      <Filter>ModifyHosts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\7zipExeCall.cpp">
+      <Filter>ModifyHosts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonPubInterfaces\CommonBaseInterfaces\str_commfun.cpp">
+      <Filter>CommonPubInterfaces\CommonBaseInterfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\src\Ascii.cpp">
+      <Filter>ModifyHosts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CommonPubInterfaces\CommonBaseInterfaces\PubInterfacesTypeDef.h">
+      <Filter>CommonPubInterfaces\CommonBaseInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FileOperate.h">
+      <Filter>ModifyHosts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\URLOperate.h">
+      <Filter>ModifyHosts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\7zipExeCall.h">
+      <Filter>ModifyHosts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonPubInterfaces\CommonBaseInterfaces\str_commfun.h">
+      <Filter>CommonPubInterfaces\CommonBaseInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonPubInterfaces\CommonBaseInterfaces\CommonDataSetErrorCodeDefine.h">
+      <Filter>CommonPubInterfaces\CommonBaseInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\include\Ascii.h">
+      <Filter>ModifyHosts</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
